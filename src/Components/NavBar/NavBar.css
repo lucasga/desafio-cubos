@@ -1,0 +1,16 @@
+.Navbar {
+    text-align: center;
+    background-color: #116193;
+    height: 75px;
+    padding: 10px;
+    color: #00E8E4;
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+}
+  
+.Navbar-title {
+    line-height: 0px;
+}
+
+  
+  
