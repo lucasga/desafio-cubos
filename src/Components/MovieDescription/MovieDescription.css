@@ -1,0 +1,25 @@
+.movie-description {
+    background-color: #EAEAEA;
+    height: 66.7%;   
+}
+
+.font-date {
+    color: #A4A4A4;
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    margin-left:11%;
+}
+
+.font-description {
+    color: #5F5F5F;
+    font-family: 'Abel', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    padding: 15px;
+}
+
+.tag-position {
+    position: relative;
+}

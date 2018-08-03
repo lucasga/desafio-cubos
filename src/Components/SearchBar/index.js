@@ -4,7 +4,7 @@ import './SearchBar.css';
 class SearchBar extends Component {
   render() {
     return (
-        <div className="Searchbar">
+        <div className="searchbar">
           <form>
               <input type="text" className="search-input" placeholder={this.props.placeholder}/>
           </form>

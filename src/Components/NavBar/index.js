@@ -4,8 +4,8 @@ import './NavBar.css';
 class NavBar extends Component {
   render() {
     return (
-        <header className="Navbar">
-          <p className="Navbar-title">{this.props.title} </p> 
+        <header className="navbar">
+          {this.props.title} 
         </header>
     );
   }

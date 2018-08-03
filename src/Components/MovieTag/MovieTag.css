@@ -1,0 +1,15 @@
+.movie-tag {
+    color: #6b92b9;
+    display: inline-block;
+    border-radius: 40px;
+    border: 1.4px solid #6b92b9;
+    z-index: 5;
+    position: absolute;
+    left: 1.5%;
+    padding: 0.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    font-family: 'Abel', sans-serif;
+    background-color: #FFFFFF;
+    font-size: 15px;
+}
