@@ -8,17 +8,29 @@ import { Redirect } from 'react-router';
 
 class CardMovie extends Component {
   state = {
-    redirect: false   
+    redirect: false,
+    clickable: false,   
+  }
+
+  handleOnOver = () => {
+    this.setState({clickable: true})
+  }
+  handleOnOut = () => {
+    this.setState({clickable: false})
   }
   handleOnClick = () => {
     this.setState({redirect: true});
   } 
+
   render() {
     if (this.state.redirect) {
       return <Redirect push to="/details" />;
     }
+    if (this.state.clickable) {
+      
+    }
     return (
-        <div className="card-movie" onClick={this.handleOnClick}>
+        <div className={ this.state.clickable ? "clickable-card-movie" : "card-movie"} onClick={this.handleOnClick} onMouseOver={this.handleOnOver} onMouseOut={this.handleOnOut}>
             <div className="movie-img">
                 <ImageMovie source={this.props.img} />
              </div>
