@@ -1,9 +1,9 @@
 .movie-title {
-    padding:15px;
+    padding:1.6%;
     background-color: #116193;
     color: #00E8E4;
     font-family: 'Abel', sans-serif;
-    font-size: 38px;
+    font-size: 2.4rem;
     text-align: left;
     display:flex;
     position:relative;
@@ -22,7 +22,7 @@
     margin-top: 40%;
     margin-bottom: 40%;
     vertical-align: center;
-    font-size: 25px;
+    font-size: 1.6rem;
 }
 .inner-div {
     width:89%;

@@ -20,12 +20,11 @@
     margin-top: 20%;
     margin-bottom: 20%;
     vertical-align: center;
-    font-size: 25px;
+    font-size: 1.5rem;
     color: #00E8E4;
 }
 .inner-div-footer {
     width:79%;
-    height: 40px;
     border-radius: 50%;
     border: 4px solid #00E8E4;
     z-index: 5;

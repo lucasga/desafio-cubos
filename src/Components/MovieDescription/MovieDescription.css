@@ -6,7 +6,7 @@
 .font-date {
     color: #A4A4A4;
     font-family: 'Abel', sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     text-align: left;
     margin-left:11%;
 }
@@ -14,10 +14,10 @@
 .font-description {
     color: #5F5F5F;
     font-family: 'Abel', sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: bold;
     text-align: left;
-    padding: 15px;
+    padding: 1.7%;
 }
 
 .tag-position {
