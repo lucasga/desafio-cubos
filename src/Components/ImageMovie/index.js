@@ -5,7 +5,7 @@ class ImageMovie extends Component {
   render() {
     return (
         <div className="image-movie">
-            <img className="image-dim" src={this.props.source} />
+            <img className="image-dim" alt="img" src={this.props.source} />
         </div>
     );
   }

@@ -1,6 +1,11 @@
 .movie-description {
     background-color: #EAEAEA;
-    height: 66.7%;   
+    height: 80%;
+}
+
+.desciption-padding {
+    padding-top: 3%;
+    padding-left: 5%;
 }
 
 .font-date {
@@ -21,5 +26,80 @@
 }
 
 .tag-position {
-    position: relative;
+    text-align: left;
 }
+
+/* Screen Sizes 780px and down */
+
+@media(max-width: 780px) {
+        .movie-description {
+            height: 100%;
+        }
+        
+        .desciption-padding {
+            padding: 5%;
+            background-color: #EAEAEA;
+
+        }
+        
+        .font-date {
+            color: #A4A4A4;
+            font-family: 'Abel', sans-serif;
+            font-size: 1rem;
+            text-align: left;
+            margin-left:0;
+        }
+        
+        .font-description {
+            color: #5F5F5F;
+            font-family: 'Abel', sans-serif;
+            font-size: 1rem;
+            font-weight: bold;
+            text-align: left;
+            padding: 0  ;
+        }
+
+        .tag-position {
+            margin-top: 5%;
+        }
+    
+}
+
+/* Screen Sizes 781px to 1200px */
+
+@media(min-width: 781px) and (max-width: 1200px) {
+    .movie-description {
+        height: 85%;
+    }
+    
+    .desciption-padding {
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-bottom: 2%;
+    }
+    
+    .font-date {
+        color: #A4A4A4;
+        font-family: 'Abel', sans-serif;
+        font-size: 0.75rem;
+        text-align: left;
+        margin-left:11%;
+    }
+    
+    .font-description {
+        color: #5F5F5F;
+        font-family: 'Abel', sans-serif;
+        font-size: 0.75rem;
+        font-weight: bold;
+        text-align: left;
+        padding: 1.7%;
+        height: 10%;
+    }
+    
+    .tag-position {
+        text-align: left;
+    }
+    
+}
+
+

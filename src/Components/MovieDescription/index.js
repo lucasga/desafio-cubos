@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import MovieTag from './../MovieTag/index.js'
 import './MovieDescription.css';
+import getGenre from '../utils'
+
 
 class MovieDescription extends Component {
+
   render() {
+
     return (
         <div className="movie-description">
+          <div className="desciption-padding">
             <div className="font-date">
               {this.props.date}
             </div>
@@ -13,8 +18,13 @@ class MovieDescription extends Component {
               {this.props.description}
             </div>
             <div className="tag-position">
-              <MovieTag tag="Ação" />
+              {
+                this.props.tags.map((tag,index) => (
+                  <MovieTag key={index} tag={getGenre(tag)} />
+                ))
+              }
             </div>
+          </div>
         </div>
     );
   }

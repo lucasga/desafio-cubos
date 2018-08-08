@@ -1,6 +1,4 @@
 .searchbar {
-    width: 100%;
-    height: 100%;
     margin-top: 4%;
     margin-bottom: 4%;
 }
@@ -10,14 +8,13 @@
     background-color: #EBEBEB;
     color: #84AAC2;
     width: 85%;
-    height: 10%;
-    padding:1.9%;
-    border-radius: 25px;
+    padding:1.5%;
+    border-radius: 50px;
     font-family: 'Abel', sans-serif;
     font-size: 1.2rem;
 }
 
-::placeholder { 
+::placeholder {
     color: #84AAC2;
     opacity: 1;
 }
@@ -28,4 +25,19 @@
 
 ::-ms-input-placeholder {
     color: #84AAC2;
+}
+
+
+/* Screen Sizes 780px and down */
+
+@media(max-width: 780px) {
+    .searchbar {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .search-input {
+        padding-left: 5%;
+        font-size: 1rem;
+    }
 }
