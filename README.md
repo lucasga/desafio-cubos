@@ -5,7 +5,7 @@ npm: 5.6.0
 
 ## Rodando o projeto
 
-Ao clonar o repositório, acessar a pasta raize utilizar os seguintes comandos:
+Ao clonar o repositório, acessar a pasta raiz e utilizar os seguintes comandos:
   - npm install
   - npm start
   
